@@ -1,4 +1,5 @@
 /* ===================================================
+
        =================================================
        Table of content
 
@@ -1068,7 +1069,7 @@ span.blog-date {
 =========================*/
 #contact-area {
     overflow: hidden;
-    /* padding: 120px 0 90px; */
+    padding: 120px 0 90px;
     background: #0b121f;
     position: relative;
 }
@@ -1123,13 +1124,13 @@ span.blog-date {
 
 .contact-form form textarea {
     width: 100%;
-    height: 2px;
+    height: 250px;
     outline: none;
     resize: none;
-    padding: 0px;
+    padding: 20px;
     background-color: rgba(256, 256, 256, .1);
     border: none;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
 
 .contact-form form input[type=text]::-webkit-input-placeholder,
@@ -1168,9 +1169,9 @@ span.blog-date {
     width: 100%;
     border: none;
     outline: none;
-    padding: 0px 0px;
+    padding: 10px 20px;
     text-transform: uppercase;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     background-color: rgba(256, 256, 256, .1);
 }
 
@@ -1181,8 +1182,8 @@ span.blog-date {
 
 /*=========== MAP STYLES ============*/
 #map {
-    height: 0px;
-    width: 0%;
+    height: 492px;
+    width: 100%;
     background-color: white;
 }
 
@@ -1191,8 +1192,8 @@ span.blog-date {
     17. COPYRIGHT AREA
 ========================*/
 #footer-area {
-    /* overflow: hidden; */
-    /* padding: px 100px; */
+    overflow: hidden;
+    padding: 80px 0;
     background-color: #080d17;
 }
 
@@ -1205,8 +1206,8 @@ span.blog-date {
     text-transform: uppercase;
     color: #fff;
     font-size: 40px;
-    /* line-height: 40px; */
-    /* margin-bottom: 15px; */
+    line-height: 40px;
+    margin-bottom: 15px;
     font-weight: 700;
 }
 
@@ -1225,7 +1226,7 @@ span.blog-date {
 .footer-social ul {
     display: flex;
     justify-content: center;
-    margin-top: 0px;
+    margin-top: 15px;
 }
 
 .footer-social ul li a {
